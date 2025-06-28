@@ -6,352 +6,387 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="main.css">
-    <title>Ticker AI</title>
+    <title>Creativites for you</title>
 </head>
 
 <body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200">
 
-    <!-- Header Section Start  -->
+    <!-- Header Section  -->
 
-    <header class="md:mx-auto md:py-4 py-2 px-2">
-        <nav class="container mx-auto flex justify-between items-center">
-            <div class="flex items-center gap-2 md:gap-4 ">
-                <img src="image/tickerAI-logo 1.png" alt="logo" class="w-10 md:w-fit">
-                <p class="text-[8px] md:text-xs">A Mark Cuban Company
-                    <br> AI-based Financial Market News Aggregator
-                </p>
+    <section class="bg-white text-gray-950 fixed sticky top-0 z-20 dark:text-white dark:bg-gray-900">
+        <nav
+            class="md:container container-fluid mx-auto md:py-4 py-2 flex items-center  justify-around">
+            <div>
+                <img class="w-[138px] h-[46px] dark:bg-gray-100 dark:px-3 dark:py-1 dark:rounded" src="image/logo.png"
+                    alt="logo">
             </div>
-            <div class="flex items-center gap-2 md:gap-7">
-                <a href="news.html">
-                    <button
-                        class="bg-[#5677AC] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#42669e transition hover:scale-105 hover:translate-y-1">Personalize
-                        News </button>
-                </a>
-                <div
-                    class="bg-[#5677AC26] text-[#5677AC] md:text-2xl text-lg font-bold size-9 rounded-full flex items-center justify-center hover:scale-105 transition-all cursor-pointer">
-                    IK
-                </div>
-                <button class="transition-all hover:scale-105 duration-300" id="switch">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-                    </svg>
-                </button>
+            <div>
+                <ul class="flex items-center justify-between md:gap-8 gap-4">
+                    <li><a class="header-link" href="#">Home</a></li>
+                    <li><a class="header-link" href="#">About us</a></li>
+                    <li><a class="header-link text-red-600" href="#">Upskil</a></li>
+                    <li><a class="header-link" href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center md:gap-8 gap-3">
+                <button class="header-btn">Register
+                    Interest</button>
+                <button class="text-4xl text-indigo-950" id="switch"><i
+                        class="fa-regular fa-moon dark:text-gray-200"></i></button>
             </div>
         </nav>
-    </header>
+    </section>
 
-    <!-- Header Section End  -->
+    <!-- Header Section  -->
 
-    <!-- Banner Section Start  -->
+    <!-- Hero Section  -->
+    <section class="bg-[#FAFAFA] dark:bg-gray-800">
 
-    <section
-        class="flex flex-col items-center md:px-0 px-4 md:py-32 py-20 bg-[url('https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-no-repeat bg-cover">
-        <h1 class="dark:text-black md:text-7xl text-3xl font-bold italic bg-white p-1">ticket AI</h1>
-        <div class="bg-white flex items-center md:my-4 my-2 md:p-4 p-2 rounded gap-20 hover:ring">
-            <i class="fa fa-search"></i>
-            <input class="outline-none md:w-[540px] w-full" type="text" name="search"
-                placeholder="Search any market topic...">
+        <div class="hero-section">
+            <div class="md:mt-8 mt-5">
+                <h4 class="hero-tag">Discover <span class="text-[#f44335] font-extrabold">-</span> Interact <span
+                        class="text-[#f44335] font-extrabold">-</span> Engage</h4>
+                <h1 class="hero-title">Google <br> <span class="text-[#f44335]">IT Support</span> Certificate</h1>
+                <p class="hero-pera">This is your path to a career in IT. In this program, you’ll learn in-demand skills
+                    with no degree or
+                    experience required.</p>
+
+                <div class="course-details">
+                    <div>
+                        <span class="cls-num">438</span>
+                        <p class="video-nam">Videos</p>
+                    </div>
+                    <div>
+                        <span class="cls-num">151</span>
+                        <p class="video-nam">Readings</p>
+                    </div>
+                    <div>
+                        <span class="cls-num">105</span>
+                        <p class="video-nam">Quizzes</p>
+                    </div>
+                    <div>
+                        <span class="cls-num">51</span>
+                        <p class="video-nam">Exercises</p>
+                    </div>
+                    <div>
+                        <span class="cls-num">8</span>
+                        <p class="video-nam">Assigments</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center md:gap-x-10 gap-x-5">
+                    <button class="sign-btn">Sign up</button>
+                    <button class="learn-btn">Learn more</button>
+                </div>
+            </div>
+            <div>
+                <img class="w-full h-auto mt-5" src="image/main_banner.png" alt="">
+            </div>
         </div>
-        <p class="text-xs text-gray-300 md:pt-4 pt-2 text-start">There are 6 articles available for your preferences</p>
     </section>
 
-    <!-- Banner Section End  -->
+    <!-- Hero Section  -->
 
-    <!-- News Section Start  -->
+    <!-- Logo Section  -->
+    <section class="logo-section">
+        <div class="border-r p-3">
+            <p class="text-[18px] text-[#000000] md:my-3 my-1 font-normal dark:text-gray-200">Pave your path to career
+                success by gaining a
+                professional Google certificate with the support of C4U</p>
+        </div>
+        <div class="border-r p-3">
+            <img class=" h-auto md:my-3 my-1 " src="image/logo1.png" alt="logo">
+        </div>
+        <div class="border-r p-3">
+            <img class=" h-auto md:my-3 my-1 dark:bg-gray-200" src="image/logo2.png" alt="logo">
+        </div>
+        <div>
+            <img class="w-[100%] h-auto md:my-3 my-1" src="image/logo.png" alt="logo">
+        </div>
+    </section>
 
-    <section class="dark:text-white container mx-auto grid grid-cols-12 mb-8 gap-8 md:px-0 px-4 pt-10">
-        <section class="md:col-span-9 col-span-12 md:ml-8">
 
-            <div class="dark:border-white flex items-center justify-between md:pb-2.5 border-b border-black
-            md:border-b-[3px]">
-                <h3 class="dark:text-white text-[#333333] md:text-2xl text-sm font-semibold">ALL NEWS</h3>
+    <!-- Logo Section  -->
 
-                <div class="dark:text-white flex items-center gap-2">
-                    <p class="text-gray-600 dark:text-white">Filter by: </p>
-                    <h4 class="font-bold dark:text-white">Stocks</h4>
-                    <i class="fa-solid fa-chevron-down "></i>
+    <!-- Learn Section  -->
+    <section class="bg-[#FAFAFA] ">
+
+        <section class="learn-section">
+            <div class="learn-left">
+                <h3 class="learn-title">What you will learn <i class="fa-solid fa-circle-check text-[24px] ms-3"></i>
+                </h3>
+                <div class="learn-body">
+                    <i class="learn-icon fa-solid fa-check"></i>
+                    <p class="learn-pera">Gain skills required to succeed in an entry-level IT job</p>
                 </div>
-
-            </div>
-
-            <h4 class="news-title">Individual Stocks</h4>
-
-
-            <!-- '''''' Part 1 of Card '''''' -->
-
-            <div class="card-body">
-
-                <img src="image/left1.png" alt="img" class="w-full h-44 object-cover md:h-fit md:size-[350px]">
-
-                <div>
-
-                    <div>
-                        <span class="name-btn">Dow jones</span>
-                        <span class="name-btn">Nasdaq</span>
-                        <span class="name-btn">S & P 500</span>
-                    </div>
-
-                    <h4 class="card-title">Nzd/usd forex technical
-                        analysis - traders will be monitoring fed for future rate hike clues</h4>
-
-                    <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet...</p>
-
-                    <div class="flex items-center md:gap-5 gap-3 md:text-base text-sm">
-                        <p class="dark:text-white text-[#616161]">06 September 2022</p>
-                        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Shouvik Nath</span></p>
-                    </div>
-
+                <div class="learn-body">
+                    <i class="learn-icon fa-solid fa-check"></i>
+                    <p class="learn-pera"> Learn to perform day-to-day IT support tasks including computer assembly,
+                        wireless networking,
+                        installing programs, and customer service</p>
                 </div>
-            </div>
-            <div class="card-body">
-
-                <img src="image/left2.png" alt="img" class="w-full h-44 object-cover md:h-fit md:size-[350px]">
-
-                <div>
-
-                    <div>
-                        <span class="name-btn">Dow jones</span>
-                        <span class="name-btn">Nasdaq</span>
-                        <span class="name-btn">S & P 500</span>
-                    </div>
-
-                    <h4 class="card-title">Rupee inches 5 paise
-                        higher to 77.99 against us dollar in early trade</h4>
-
-                    <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet...</p>
-
-                    <div class="flex items-center md:gap-5 gap-3 md:text-base text-sm">
-                        <p class="dark:text-white text-[#616161]">06 September 2022</p>
-                        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Amado </span></p>
-                    </div>
-
+                <div class="learn-body">
+                    <i class="learn-icon fa-solid fa-check"></i>
+                    <p class="learn-pera">Learn how to provide end-to-end customer support, ranging from identifying
+                        problems to
+                        troubleshooting and debugging</p>
                 </div>
-            </div>
-            <div class="card-body">
-
-                <img src="image/left3.png" alt="img" class="w-full h-44 object-cover md:h-fit md:size-[350px]">
-
-                <div>
-
-                    <div>
-                        <span class="name-btn">Dow jones</span>
-                        <span class="name-btn">Nasdaq</span>
-                        <span class="name-btn">S & P 500</span>
-                    </div>
-
-                    <h4 class="card-title">Rupee inches 5 paise
-                        higher to 77.99 against us dollar in early trade</h4>
-
-                    <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet...</p>
-
-                    <div class="flex items-center md:gap-5 gap-3 md:text-base text-sm">
-                        <p class="dark:text-white text-[#616161]">06 September 2022</p>
-                        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Amado </span></p>
-                    </div>
-
+                <div class="learn-body">
+                    <i class="learn-icon fa-solid fa-check"></i>
+                    <p class="learn-pera">Learn to use systems including Linux, Domain Name Systems, Command-Line
+                        Interface,
+                        and Binary Code
+                    </p>
                 </div>
             </div>
 
-            <!-- '''''' Part 2 of Card '''''' -->
-            <h4 class="news-title md:mt-12 mt-5">Stock Sectors</h4>
-
-            <div class="card-body">
-
-                <img src="image/left4.png" alt="img" class="w-full h-44 object-cover md:h-fit md:size-[350px]">
-
-                <div>
-
-                    <div>
-                        <span class="name-btn">Dow jones</span>
-                        <span class="name-btn">Nasdaq</span>
-                        <span class="name-btn">S & P 500</span>
+            <div class="bg-white shadow-md shadow-gray-300 rounded-3xl">
+                <div><img class="w-full h-auto" src="image/banner1.png" alt="banner"></div>
+                <div class="bg-white md:p-5 p-5 dark:bg-gray-900">
+                    <h3 class="learn-title mb-5">Skills you will gain </h3>
+                    <div class="flex flex-wrap gap-x-3 gap-y-5">
+                        <span class="learn-btn">Debugging</span>
+                        <span class="learn-btn">Customer Service</span>
+                        <span class="learn-btn">Customer Support</span>
+                        <span class="learn-btn">Domain Name System (DNS)</span>
+                        <span class="learn-btn">Network Model</span>
+                        <span class="learn-btn">Linux</span>
+                        <span class="learn-btn">Encryption Algorithms and Techniques</span>
+                        <span class="learn-btn">Network Protocols</span>
+                        <span class="learn-btn">Ipv4</span>
+                        <span class="learn-btn">Troubleshooting</span>
+                        <span class="learn-btn">Binary Code</span>
+                        <span class="learn-btn">Cloud Computing</span>
                     </div>
-
-                    <h4 class="card-title">Nzd/usd forex technical
-                        analysis - traders will be monitoring fed for future rate hike clues</h4>
-
-                    <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet...</p>
-
-                    <div class="flex items-center md:gap-5 gap-3 md:text-base text-sm">
-                        <p class="dark:text-white text-[#616161]">06 September 2022</p>
-                        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Shouvik Nath</span></p>
-                    </div>
-
-                </div>
-            </div>
-            <div class="card-body">
-
-                <img src="image/left5.png" alt="img" class="w-full h-44 object-cover md:h-fit md:size-[350px]">
-
-                <div>
-
-                    <div>
-                        <span class="name-btn">Dow jones</span>
-                        <span class="name-btn">Nasdaq</span>
-                        <span class="name-btn">S & P 500</span>
-                    </div>
-
-                    <h4 class="card-title">Rupee inches 5 paise
-                        higher to 77.99 against us dollar in early trade</h4>
-
-                    <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet...</p>
-
-                    <div class="flex items-center md:gap-5 gap-3 md:text-base text-sm">
-                        <p class="dark:text-white text-[#616161]">06 September 2022</p>
-                        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Amado </span></p>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- '''''' Part 3 of Card '''''' -->
-            <h4 class="dark:text-white news-title md:mt-12 mt-5">Stock Market Topics</h4>
-
-            <div class="card-body">
-
-                <img src="image/left6.png" alt="img" class="w-full h-44 object-cover md:h-fit md:size-[350px]">
-
-                <div>
-
-                    <div>
-                        <span class="name-btn">Dow jones</span>
-                        <span class="name-btn">Nasdaq</span>
-                        <span class="name-btn">S & P 500</span>
-                    </div>
-
-                    <h4 class="card-title">Rupee inches 5 paise
-                        higher to 77.99 against us dollar in early trade</h4>
-
-                    <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                        aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
-                        consequat sunt nostrud amet...</p>
-
-                    <div class="flex items-center md:gap-5 gap-3 md:text-base text-sm">
-                        <p class="dark:text-white text-[#616161]">06 September 2022</p>
-                        <p>By <span class="text-[#5677AC] font-semibold cursor-pointer">Amado </span></p>
-                    </div>
-
                 </div>
             </div>
         </section>
-
-        <!-- News Section Start  -->
-
-        <!-- Fectured Section Start  -->
-        <section class="md:col-span-3 col-span-12 md:mr-8">
-
-            <div class="flex items-center justify-between md:pb-2.5 border-b border-black
-            md:border-b-[3px] dark:border-white">
-                <span class="dark:text-white text-[#333333] md:text-2xl text-sm font-semibold">FEATURED</span>
-            </div>
-
-            <h4 class="news-title dark:text-white">Daily Rundowns</h4>
-
-            <!-- Tag Section  -->
-
-            <div>
-                <div class="md:mb-8 mb-4">
-                    <h4 class="tag-title">Earnings:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="tag">Csan</span>
-                        <span class="tag">Alya</span>
-                        <span class="tag">Gato</span>
-                        <span class="tag">Css</span>
-                        <span class="tag">VZLA</span>
-                        <span class="tag">MFH</span>
-                    </div>
-                </div>
-                <div class="md:mb-8 mb-4">
-                    <h4 class="tag-title">Movers:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="tag">rev</span>
-                        <span class="tag">petv</span>
-                        <span class="tag">rytm</span>
-                        <span class="tag">srrk</span>
-                        <span class="tag">vera</span>
-                        <span class="tag">kzia</span>
-                        <span class="tag">sym</span>
-                    </div>
-                </div>
-                <div class="md:mb-10 mb-4">
-                    <h4 class="tag-title">Technicals:</h4>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="tag">bearish</span>
-                        <span class="tag">regn</span>
-                        <span class="tag">tsla</span>
-                        <span class="tag">mcd</span>
-                        <span class="tag">bullish</span>
-                        <span class="tag">uso</span>
-                        <span class="tag">sedg</span>
-                        <span class="tag">enph</span>
-                        <span class="tag">shop</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tag Section  -->
-
-            <div>
-                <img src="image/right1.png" alt="" class="w-full object-cover">
-                <p class="card-paragraph">Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet sint. </p>
-            </div>
-            <div>
-                <img src="image/right2.png" alt="" class="w-full object-cover">
-                <p class="card-paragraph">Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet sint. </p>
-            </div>
-            <div>
-                <img src="image/right3.png" alt="" class="w-full object-cover">
-                <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                    aliqua dolor do amet sint. </p>
-            </div>
-            <div>
-                <img src="image/right1.png" alt="" class="w-full object-cover">
-                <p class="card-paragraph">Amet minim mollit non deserunt ullamco est sit
-                    aliqua dolor do amet sint. </p>
-            </div>
-
-
-        </section>
-
-        <!-- Fectured Section End  -->
-
     </section>
 
-    <!-- Footer Section Start  -->
+    <!-- Learn Section  -->
 
-    <footer class="flex md:flex-row text-center flex-col md:space-y-0 space-y-2 justify-between py-4 md:px-24 px-2.5 ">   
-            <p class="md:text-sm text-xs">© 2025 Ticker AI. All rights reserved.</p>
-            <p class="md:text-sm text-xs">Privacy Policy | Terms of Service</p>
+    <!-- Testimonial Section  -->
+
+    <section class="bg-[#FAFAFA] pb-5">
+        <section class="testimonial-section">
+            <div class="testimonial-left">
+                <h3 class="testimonial-title">Jobs Assocaited with Certificate <i
+                        class="fa-solid fa-circle-arrow-down ms-3"></i>
+                </h3>
+                <div class="flex items-center justify-between md:p-5 p-3 md:mt-5 mt-3">
+                    <div class="md:space-y-6 space-y-4">
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>Database administrator</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>Tech support specialist</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>IT specialist</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>Systems analyst</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>Network engineer</p>
+                        </div>
+                    </div>
+                    <div class="md:space-y-6 space-y-4">
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>Help desk technician</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>IT support spcialist</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>IT technician</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>Computer user specialist</p>
+                        </div>
+                        <div class="testimonial-body">
+                            <i class="fa-solid fa-arrow-right"></i>
+                            <p>IT assitant </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white shadow-md shadow-gray-300 rounded-3xl flex items-center">
+                <img class="w-full h-auto" src="image/banner2.png" alt="banner">
+            </div>
+        </section>
+    </section>
+
+    <!-- Testimonial Section  -->
+
+    <!-- Certificate Section  -->
+
+    <section class="container mx-auto grid grid-cols-12">
+        <div class="col-span-9 md:py-16 py-8">
+            <h1 class="text-[50px] text-[#2D3142] font-semibold leading-tight dark:text-gray-100">There are 5 Courses in this <br>
+                Professional
+                Certificate</h1>
+            <div class="md:mt-16 mt-10 md:space-x-10 space-x-6">
+                <button class="certificate-btn text-[#000] bg-[#00FF84] dark:text-white">COURSE 1 </button>
+                <button class="certificate-btn">COURSE 2 </button>
+                <button class="certificate-btn">COURSE 3 </button>
+                <button class="certificate-btn">COURSE 4 </button>
+                <button class="certificate-btn ">COURSE 5 </button>
+            </div>
+        </div>
+        <div class="col-span-3">
+            <img class="w-full h-auto" src="image/GU sign.png" alt="">
+        </div>
+    </section>
+
+    <!-- Certificate Section  -->
+
+    <!-- Background Section 1 -->
+
+    <section class="container mx-auto md:py-24 py-20">
+        <div class="relative"><img class="h-auto w-full" src="image/background1.png" alt="background">
+            <img class="h-80 w-full absolute mt-[-140px] z-10" src="image/vector1.png" alt="vector">
+        </div>
+    </section>
+
+    <!-- Background Section  1-->
+
+    <!-- Background Section 2 -->
+
+    <section class="container mx-auto md:py-24 py-20">
+        <div class="relative"><img class="h-auto w-full" src="image/background2.png" alt="background">
+            <img class="h-80 w-full absolute z-10" src="image/vector2.png" alt="vector">
+        </div>
+    </section>
+
+    <!-- Background Section 2 -->
+
+    <!-- Background Section 3 -->
+
+    <section class="container mx-auto md:py-24 md:mt-36 py-20">
+        <div class="relative"><img class="h-auto w-full" src="image/background4.png" alt="background">
+            <img class="h-72 w-full absolute z-10" src="image/vector3.png" alt="vector">
+        </div>
+    </section>
+
+    <!-- Background Section 3 -->
+
+    <!-- Background Section 4 -->
+
+    <section class="container mx-auto md:py-24 md:mt-36 py-20">
+        <div class="relative"><img class="h-auto w-full" src="image/background45png.png" alt="background">
+            <img class="h-72 w-full absolute z-10" src="image/vector4.png" alt="vector">
+        </div>
+    </section>
+
+    <!-- Background Section 4 -->
+
+    <!-- Background Section 5 -->
+
+    <section class="container mx-auto md:py-24 md:mt-36 py-20">
+        <div class="relative"><img class="h-auto w-full" src="image/background1.png" alt="background">
+    </section>
+
+    <!-- Background Section 5 -->
+
+    <!-- Work Section  -->
+
+    <section class="relative">
+        <div>
+            <img class="w-full h-auto relative" src="image/image.png" alt="">
+        </div>
+        <div
+            class="absolute md:top-32 md:left-28 top-6 left-6 bg-white text-black z-10 md:w-[52%] md:h-[65%] w-96 h-48 rounded-lg md:p-10 p-1">
+            <img src="image/Q mark.png" alt="">
+            <p class="md:text-[26px] text-[15px] md:font-medium font-light md:pt-5 pt-1">I worked in retail and needed
+                to
+                make a change. The certificate is really designed for you to go at your own pace. This is something that
+                anybody can do</p>
+            <p class="md:text-[18px] text-[14px] md:font-medium font-normal md:pt-5 pt-1 text-[#ffbdb6]">Daniel, IT
+                Support
+                Specialist at Central Community College and Google IT Support Certificate graduate</p>
+        </div>
+    </section>
+
+    <!-- Work Section  -->
+
+    <!-- Footer Section  -->
+
+    <footer class="container mx-auto md:py-10 py-6 grid grid-cols-12">
+
+        <div class="flex items-start flex-col space-y-3 md:col-span-4 col-span-6">
+            <img class="h-auto dark:bg-white dark:py-1 dark:px-3 dark:rounded-xl" src="image/logo.png" alt="logo">
+            <p class="text-[16px] text-[#20484F] md:leading-8 leading-5 dark:text-gray-300">Level39
+                <br> One Canada Square,
+                <br> Canary Wharf,
+                <br> London,
+                E14 5AB
+            </p>
+        </div>
+        <div class="md:col-span-2 col-span-4">
+            <h3 class="footer-nav">Home</h3>
+            <ul class="md:space-y-5 space-y-3">
+                <li class="footer-link">Collaborations</li>
+                <li class="footer-link">Statistics</li>
+                <li class="footer-link">How It Works </li>
+                <li class="footer-link">Testimonials </li>
+            </ul>
+        </div>
+        <div class="md:col-span-2 col-span-4">
+            <h3 class="footer-nav">About Us</h3>
+            <ul class="md:space-y-5 space-y-3">
+                <li class="footer-link">Who We Are</li>
+                <li class="footer-link">Mission statement </li>
+                <li class="footer-link">Our Vision </li>
+                <li class="footer-link">The Team </li>
+            </ul>
+        </div>
+        <div class="md:col-span-2 col-span-4">
+            <h3 class="footer-nav">Upskill</h3>
+            <ul class="md:space-y-5 space-y-3">
+                <li class="footer-link">It Support </li>
+                <li class="footer-link">Project Managment </li>
+                <li class="footer-link">Data Analysts </li>
+                <li class="footer-link">Ux Design</li>
+            </ul>
+        </div>
+        <div class="md:col-span-2 col-span-4">
+            <h3 class="footer-nav">Contact Us </h3>
+            <ul class="md:space-y-5 space-y-3">
+                <li class="footer-link">Your message </li>
+                <li class="footer-link">Email</li>
+                <li class="footer-link">Phone number </li>
+                <li class="footer-link">Linkedin </li>
+            </ul>
+        </div>
+
     </footer>
 
-    <!-- Footer Section End  -->
+    <!-- Footer Section  -->
 
-    <!-- Dark Mode Toggle Script  -->
+    <!-- CopyRight Section  -->
+
+    <div class="container mx-auto flex items-center md:py-5 py-3 my-1 border-t">
+        <p class="text-[14px] text-[#20484F] font-medium mx-auto dark:text-gray-100">Copyright 2022 Creatives For You LTD</p>
+    </div>
+
+    <!-- CopyRight Section  -->
 
     <script>
         const modechanger = document.getElementById('modechanger');
-        document.getElementById('switch').addEventListener("click", function() {
+        document.getElementById('switch').addEventListener("click", function () {
             modechanger.classList.toggle('dark');
         });
     </script>
-
-    <!-- Dark Mode Toggle Script  -->
-
-
 
 
 </body>
